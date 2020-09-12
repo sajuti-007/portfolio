@@ -1,0 +1,471 @@
+/*GOOGLE FONTS HERE*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300;1,400&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body,h1,h2,h3,h4,h5,h6,input,button,a,p,span,li,i{
+font-family: 'Open Sans', sans-serif;
+}
+a,a:hover{
+	text-decoration: none;                                             
+}
+
+
+/*********************
+this is our header
+*********************/
+.header{
+	/*width: 100%;*/
+	background-image: url(../img/banner.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	display: flow-root;
+}
+.overlay{
+	background-color: rgba(0,0,0,0.7);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right:0;
+}
+.navbar{
+	    margin: 40px 0;
+
+}
+
+.nav-link{
+	color: white!important;
+	margin-left: 20px!important;
+	font-size: 18px!important;
+	/*font-weight: 600!important;
+*/
+}
+.nav-link:hover{
+	color: #E6E4E3!important;
+	transition: .5s;
+	
+}
+.navbar-brand{
+	color: white!important;
+	font-size: 25px!important;
+}
+.navbar-brand:hover{
+	color: #E6E4E3!important;
+	transition: .5s;
+}
+.header-text{
+	width: 100%;
+	color: #EEE9E6!important;
+	height: 60vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: #EEE9E6;
+
+}
+.header-text h1{
+font-size: 60px!important;
+    font-weight: bolder;
+
+}
+.header-text h6{
+	font-size: 20px!important;
+	margin-top: 40px!important;
+}
+.icon-design{
+	text-align: center!important;
+	
+}
+.icon-design i{
+color: white;
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	border-radius: 50px;
+	background: #ffb233;
+	font-size: 20px;
+	cursor: pointer;
+}
+.icon-design i:hover{
+	background:#ffc233;
+
+}
+
+/*********************
+this is user
+*********************/
+.user{
+	/*width: 100%;*/
+	display: flow-root;
+}
+.info{
+	text-align: center;
+	margin: 70px 0;
+}
+.info h3{
+	letter-spacing: 5px;
+	margin: 40px 0;
+}
+.info h6{
+	margin: 20px 0;
+	color: #686867;
+	font-size: 20px;
+}
+.info p{
+	line-height: 28px;
+
+    padding: 0 130px;
+}
+.user-icon{
+	text-align: center;
+}
+.user-icon i{
+	color: white;
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	border-radius: 50px;
+	background: #A4A4A2;
+	font-size: 20px;
+	margin:  0 25px;
+}
+.user-icon i:hover{
+	background-color: #ffb233;
+	cursor: pointer;
+}
+.form-in{
+	text-align: center!important;
+}
+.form-in button {
+   padding-top: 15px;
+    padding-right: 40px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    text-align: center;
+    margin-top: 40px;
+    border: 2px solid #51a351;
+    color: #51a351;
+    border-radius: 5px;
+    cursor: pointer;
+    color: transparent;
+    background: white;
+
+}
+.form-in button h5{
+	color: #51a351;
+}
+/*********************
+this is icon part
+*********************/
+.icon-part{
+	/*width: 100%;*/
+	background-image: url(../img/whatIsay.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 80vh;
+	position: relative;
+	margin-top: 40px;
+	display: flow-root;
+}
+.overlay-part{
+	background-color: rgba(0,0,0,0.7);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right:0;
+}
+.icon-heading{
+	color: white;
+	text-align: center;
+	margin-top: 100px;
+	letter-spacing: 4px;
+}
+.icon{
+	text-align: center;
+	margin: 100px 0;
+
+	
+
+
+}
+.icon ul li{
+	list-style: none;
+	display: inline-block;
+}
+.icon i{
+	color: white;
+	height: 70px;
+	width: 70px;
+	line-height: 60px;
+	border-radius: 50px;
+background: #ffb233;
+	
+	margin: 0 25px;
+	cursor: pointer;
+	border: 5px solid #ffb233;
+	transition: all .5s ease-in-out;
+
+}
+.icon i:hover{
+	border-color:#735629;
+	transition: all .5s ease-in-out;
+
+
+}
+.icon p{
+	color: white;
+	margin-top: 25px;
+}
+/*********************
+this is count section part
+*********************/
+.count-section{
+	/*width: 100%;*/
+	padding: 80px 0;
+	display: flow-root;
+	background: #f3f4ff;
+	
+}
+.count{
+	text-align: center;
+
+}
+.count h1{
+	font-size: 60px;
+	font-weight: 800;
+	color: #444444;
+}
+.count hr{
+	width: 20%;
+    text-align: center;
+    margin: 25px auto;
+    color: #51a351;
+    border: 1px solid#51a351;
+}
+.count p{color: 
+	color:#545556;
+	font-size: 20px;
+	
+	font-style: italic;
+}
+/*********************
+this is PORTFOLIO part
+*********************/
+.portfolio{
+	/*width: 100%;*/
+	display: flow-root;
+}
+.portfolio-head{
+margin: 70px 0;
+text-align: center;
+}
+.portfolio-head h1{
+	font-size: 40px;
+	color: #333b46;
+	letter-spacing: 5px;
+
+}
+.title{
+	padding: 0 255px;
+}
+hr{
+	width: 20%;
+    text-align: center;
+    margin: 25px auto;
+    color: #51a351;
+    border: 1px solid#51a351;
+    margin-top: -10px;
+}
+.text{
+	text-align: center;
+	
+	color:#545556;
+	font-size: 16px;
+}
+.image{
+	margin: 40px 150px;
+}
+.portfolio-lasta{
+margin-top: 9px;
+}
+.portfolio-lastb{
+margin-top: -122px;
+}
+.portfolio-lastc{
+margin-top: -51px;
+
+}
+.button{
+	text-align: center;
+}
+
+.new{
+	text-align: center;
+	margin-top: 30px;
+}
+.box-shadow button{
+		box-shadow: 6px 5px 10px 0px rgba(0,0,0,0.5)
+}
+ button{
+	text-align: center;
+     padding-top: 15px;
+    padding-right: 45px;
+  
+    padding-left: 45px;
+	background: #51a351;
+	color: white!important;
+	border: none;
+
+	}
+/*********************
+this is testimonial part
+*********************/
+.testimonial{
+	/*width: 100%;*/
+	display: flow-root;
+	background: url(../img/testimonial.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	margin-top: 40px;
+}
+.t-title{
+	text-align: center;
+	padding: 40px 0;
+	
+}
+.t-title h1{
+	font-size: 40px;
+	color: #333b46;
+	letter-spacing: 5px;
+	margin-top: 50px;
+}
+.comment{
+	text-align: center;
+}
+.comment p{
+	padding: 0 120px;
+	color: #484848;
+}
+.comment img{
+	margin-top: 50px;
+	width: 20px;
+}
+.comment h4{
+	margin-top: 30px;
+	font-size: 16px;
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+.comment h6{
+	color: #a1a8ad;
+	font-size: 16px;
+	margin-top: 10px;
+
+}
+.owl-carousel .owl-item img {
+     margin: 0 auto;  
+    width: 10%!important;
+}
+.owl-theme .owl-dots .owl-dot.active span{
+	background:#ffb233!important;
+   }
+/*********************
+this is contact part
+*********************/
+.contact{
+	/*width: 100%;*/
+	background: url(../img/footer.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	display: flow-root;
+
+}
+.contact-text{
+	margin-top:70px;
+}
+.contact-text h3{
+	color: white;
+	letter-spacing: 3px;
+}
+.contact-text h5{
+	color: white;
+	margin-top: 40px;
+	font-size: 15px;
+}
+.contact-text  a{
+	color: white;
+	text-align: left;
+}
+.contact-text hr{
+/*
+*/
+width: 33.33%;
+    text-align: center;
+   margin-left: -1px;
+    color:white;
+    border: 1px solid white;
+    margin-top: 1px;
+}
+.form{
+	margin-top: 70px;
+	color: white;
+}
+.form p{
+	text-align: left;
+	color: #C7C7C7;
+}
+.form h6{
+	text-align: left;
+}
+.contact-form{
+	text-align: center;
+	margin-top: 100px;
+}
+.contact-form input:hover{
+	border: 1px solid #ffb233;
+}
+.information input{
+	padding: 10px 30px;
+	margin-left: 20px;
+
+}
+.message{
+	
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.message input{
+padding: 60px 165px;
+text-align: left;
+}
+.contact-form input{
+	background: transparent;
+	border: 2px solid white;
+}
+.last button{
+	padding: 10px 200px;
+}
+.last{
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.last-text{
+	text-align: center;
+	color: white;
+	margin-top: 15px;
+}
+.last-text p{
+letter-spacing: 2px;
+}
